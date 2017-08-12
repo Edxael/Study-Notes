@@ -1,0 +1,27 @@
+body{
+  background-color: gray;
+  text-align: center;
+  padding: 40px 7px 7px 7px;
+}
+
+.btn1{
+  margin-right: 2px;
+}
+
+  /*Change the background of the Nav-Bar Buton when hover */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: lightblue;
+    color: black;
+}
+
+.lf{
+  background-color: blue;
+  height: 150px;
+}
+
+
+.rg{
+  background-color: lightblue;
+  height: 150px;
+  margin: 2px;
+}
