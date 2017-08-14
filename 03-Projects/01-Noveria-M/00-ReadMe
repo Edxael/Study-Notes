@@ -1,0 +1,44 @@
+
+      ----- NOVERIA -----
+
+This will be my Main project in Helio-Training, the name of this project is "NOVERIA"
+This project will be a online store for Movies and VideoGames 
+
+You can see the progress of this site at: URL.....
+
+
+
+ -- some features are: --
+See individual products.
+Search Movies and games in database.
+Add Movies & Games to database
+Ability to use a USB Bar-Code Scanner 
+Sales, inventory, P&L , Balance Sheet Reports
+Individual Log-In access to site.
+
+
+
+
+ -- Technologies that will be used: --
+Node.js
+Express.js
+EJS
+EJS-Mate
+MongoDB
+Morgan
+Bcrypt
+Bootstrap
+
+
+
+
+
+ -- Other features to be add in the future: --
+Chat-bot to interact with customers.
+Payroll for employees
+Accounting sistem, for Acc. Payable & Acc. Receivable
+
+
+------------------
+By: Edmundo Rubio.
+www.mycode.website
