@@ -13,12 +13,10 @@ Report for week 32: Sunday, August 07 --to-- Saturday, August 12
 ---------------
  --Monday:
  
-I got informed that the second speaker for Node.js Meet-Up will not be able to attend. 
-
-For this reason, I prepare a Code Along Node.js basic application to code after I finish my presentation, I prepare a basic Node.js projet push it to GitHub and deploy it to Heroku.
-
-GitHub:   https://github.com/Edxael/StarShip-Heroku
-Heroku:   http://starship.mycode.website/
+01- I got informed that the second speaker for Node.js Meet-Up will not be able to attend. 
+	For this reason, I prepare a Code Along Node.js basic application to code after I finish my presentation, I prepare a basic Node.js projet push it to GitHub and deploy it to Heroku.
+		GitHub:   https://github.com/Edxael/StarShip-Heroku		
+		Heroku:   http://starship.mycode.website/
 
 
 
@@ -26,63 +24,56 @@ Heroku:   http://starship.mycode.website/
 ---------------
  --Tuesday:
 
-Practice presentation, and Code along project in the morning, then go to the Meet-Up and Teach Node.js for two hrs. 
-
-Meet-Up:  https://www.meetup.com/utahnodejs/events/240816737/
+01- Practice presentation, and Code along project in the morning, then go to the Meet-Up and Teach Node.js for two hrs. 
+02- Meet-Up:  https://www.meetup.com/utahnodejs/events/240816737/
 
 
 
 ---------------
  --Wednesday:
 
-Create content for Web-Dev Class. 
-
-I create Username and Passwords and email isntructions to the team that will help in the content creation for the Web-Dev class for the utha departmet of work servics, for more details see:
-Site:  http://class.mycode.website/
-Instructions:  http://blog.mycode.website/web-dev-class-content-creation/
-
-Atend the Mojo Meet-Up: https://www.meetup.com/MOJO-FE-Developer-Meetup/events/241724989/
-
-
+01- Create content for Web-Dev Class. 
+02- I create Username and Passwords and email isntructions to the team that will help in the content creation for the Web-Dev class for the utha departmet of work servics, for more details see:
+		Site:  http://class.mycode.website/
+		Instructions:  http://blog.mycode.website/web-dev-class-content-creation/
+03- Atend the Mojo Meet-Up: https://www.meetup.com/MOJO-FE-Developer-Meetup/events/241724989/
 
 
 
 ---------------
  --Thursday:
 
-Meeting with Carrier services to start planning for when I finish boot-camp.
-
-Meet @MX building (Lehi) to plan 1rs Java class for refugees this Saturday.
-
-Study: (Node.js) Manipulate data from a user. 
-
+01- Meeting with Carrier services to start planning for when I finish boot-camp.
+02- Meet @MX building (Lehi) to plan 1rs Java class for refugees this Saturday.
+03- Study: (Node.js) Manipulate data from a user. 
 
 
 
 ---------------
  --Friday:
 
-I create a basic project/codealong about "JavaScript Constructors", for next week Utah.js Learners Meet-Up: https://www.meetup.com/UtahJS/events/240785959/
-
-I create and post the content for one class into the Web-Dev portal:   http://class.mycode.website/
-
-Study Bootstrap-Grid system for 1hr.
-
-Study Node.js how to save the data provided by the user to the Mongo.db in MLAB. and then gettin the data from DB. and render in to HTML page for the user to see.
-http://mybooks.mycode.website/
-
+01- I create a basic project/codealong about "JavaScript Constructors", for next week Utah.js Learners Meet-Up: https://www.meetup.com/UtahJS/events/240785959/
+02- I create and post the content for one class into the Web-Dev portal:   http://class.mycode.website/
+03- Study Bootstrap-Grid system for 1hr.
+04- Study Node.js how to save the data provided by the user to the Mongo.db in MLAB. and then gettin the data from DB. and render in to HTML page for the user
+		To see details: http://mybooks.mycode.website/
 
 
 
 ---------------
  --Saturday:
 
-Attend as the Java Class at the refugee center as a support staff.
-
-Practice Espress.js and heroku by creating a basic Node.js App from scratch to deploiment in Heroku.:  https://warm-reaches-71760.herokuapp.com/
-
-Practice Bootstrap Grid system. 30mints.
+01- Attend as the Java Class at the refugee center as a support staff 12:30 pm to 3:30 pm.
+02- Practice Espress.js and heroku by creating a basic Node.js App from scratch to deploiment in Heroku.:  https://warm-reaches-71760.herokuapp.com/
+03- Practice Bootstrap Grid system. 30mints.
 
 
 
 
+	-------------------
+  	   Edmundo Rubio
+	www.mycode.website
+	-------------------
+
+.
+.
