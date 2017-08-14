@@ -1,0 +1,15 @@
+body{
+  background-color: gray;
+  text-align: center;
+  padding: 7px;
+}
+
+.content-border{
+  border: 3px solid black;
+}
+
+.line1{
+  height: 7px;
+  width: 500px;
+  background-color: white;
+}
