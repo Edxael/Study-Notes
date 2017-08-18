@@ -1,0 +1,13 @@
+body{
+  background-color: gray;
+  text-align: center;
+}
+
+.menu1{
+  display: inline-block;
+}
+
+.btn1{
+  background-color: aquamarine;
+  width: 90px;
+}
