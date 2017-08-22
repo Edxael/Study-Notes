@@ -1,0 +1,164 @@
+body{
+  background-color: rgb(101, 70, 224);
+  text-align: center;
+  padding: 10px;
+}
+
+.menu1{
+  display: inline-block;
+}
+
+.btn1{
+  background: rgb(61, 75, 99);
+}
+
+.trans{
+  background-color: rgba(254, 254, 254, 0.5);
+  border: 3px solid white;
+}
+
+.conlin{
+  /*border: 1px solid blue;*/
+}
+
+/*---------------------------------*/
+
+
+.logo1{
+  width: 100px;
+  height: 100px;
+}
+
+.title1{
+  /*width: 480px;
+  height: 102px;*/
+
+  width: 240px;
+  height: 51px;
+}
+
+
+
+/*-------- Pictures- Page 3 --------*/
+
+.pic1{
+  display: inline-block;
+}
+
+
+/*-------- Page 10 --------*/
+
+.container{
+  background-color: rgba(254, 254, 254, 0.5);
+  border: 2px solid white;
+}
+
+.top{
+  padding: 5px;
+
+  display: flex;
+  justify-content: center;
+}
+
+
+.center{
+  padding: 5px;
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.block-p10{
+  border: 1px solid white;
+  padding: 5px;
+  margin: 3px;
+}
+
+.bottom{
+  padding: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.space-2{
+  margin-right: 8px;
+}
+
+@media(max-width: 700px){
+  .center{
+    padding: 5px;
+
+    /*display: flex;*/
+
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/*@media(max-width: 700px)*/
+
+/*-------- Page 11 --------*/
+
+.top1{
+  border: 1px solid white;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+}
+
+.pic1-p11{
+
+}
+
+
+.pizo2{
+  border: 1px solid white;
+  /*height: 350px;*/
+  padding: 15px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.block{
+  border: 1px solid white;
+  width: 30%;
+  padding: 6px;
+}
+
+
+
+.ft1{
+  border: 1px solid white;
+  padding: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.space1{
+  margin-right: 7px;
+}
+
+
+    /*-------- Page 11  Media Queries --------*/
+
+
+       /*---- FlexM MQ ----*/
+@media(max-width: 700px){
+  .pizo2{
+    flex-direction: column;
+  }
+
+  .block{
+    border: 1px solid white;
+    width: 90%;
+    padding: 6px;
+    margin-bottom: 10px;
+  }
+}
