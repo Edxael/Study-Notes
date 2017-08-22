@@ -1,4 +1,3 @@
-
 function getMiddle(s){
 
   if(s.length === 0){
@@ -14,7 +13,6 @@ function getMiddle(s){
     return letter;
   }
 }
-
 
 
 var s = "A"
