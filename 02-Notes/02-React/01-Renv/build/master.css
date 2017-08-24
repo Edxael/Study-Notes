@@ -1,0 +1,22 @@
+body{
+  background-color: gray;
+  text-align: center;
+  padding: 7px;
+}
+
+.parent{
+  background-color: aquamarine;
+  padding: 7px;
+}
+
+.cla1{
+  color: red;
+}
+
+/*.com1{
+  color: blue;
+}*/
+
+/*.myBorder{
+  border: 2px solid black;
+}*/

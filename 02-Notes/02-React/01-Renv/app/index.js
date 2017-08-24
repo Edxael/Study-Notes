@@ -1,10 +1,46 @@
+    // File index.js
+
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+let Upic1 = () => {
+  return(
+    <img src="https://i.pinimg.com/736x/73/a1/e1/73a1e1ba10112016628dfde50daf812d--korean-idols-korean-men.jpg" alt="Missing Pic"/>
+  );
+}
+
+let UserName = () => {
+  return(
+    <h2>Mad Clown</h2>
+  );
+}
+
+
+let Like1 = () => {
+  return(
+
+  );
+}
+
+
+
+
+const MainFrame = () => {
+  return(
+    <div className="pic1">
+
+      <Upic1/>
+      <UserName/>
+      <div>
+        <div>Like</div>
+        <div>Facebook</div>
+        <div>Elses</div>
+      </div>
+
+    </div>
+  );
+}
+
 ReactDOM.render(
-  <div>
-    <h1>H1 Text</h1>
-    <h2>H2 Text</h2>
-    <h3>H3 Text</h3>
-  </div>, document.getElementById("root")
+  <MainFrame/>, document.getElementById("root")
 );
