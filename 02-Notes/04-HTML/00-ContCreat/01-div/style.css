@@ -1,0 +1,32 @@
+body{
+  background-color: darkkhaki;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.Main{
+  background-color: lavender;
+  border: 2px solid black;
+  display: inline-block;
+  width: 650px;
+  padding: 7px;
+}
+
+
+.cars1{
+  width: 600px;
+  height: auto;
+  border: 2px solid black;
+}
+
+.block1{
+  border: 2px solid black;
+  background-color: greenyellow;
+  padding: 7px;
+}
+
+.t1{
+  display: inline-block;
+  background-color: lightblue;
+}
