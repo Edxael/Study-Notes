@@ -1,0 +1,36 @@
+body{
+  background-color: gray;
+  padding: 15px;
+}
+
+.main1{
+  border: 1px solid pink;
+  padding: 15px;
+}
+
+.myrow{
+  border: 1px solid blue;
+  padding: 15px;
+  margin-bottom: 15px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.pic1{
+  border: 1px solid red;
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media(max-width: 700px){
+  .myrow{
+    padding: 5px;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+  }
+}
