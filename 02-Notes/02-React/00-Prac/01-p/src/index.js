@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Co1 from './01-comp.jsx';
+import Cl1 from './02-comp.jsx';
 
 const Main = () => {
   let myStyle = {
@@ -11,6 +12,7 @@ const Main = () => {
     <div>
       <h1>Main Component</h1>
       <Co1/>
+      <Cl1/>
     </div>
   );
 }
