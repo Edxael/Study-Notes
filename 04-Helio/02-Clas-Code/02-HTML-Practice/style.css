@@ -1,0 +1,20 @@
+
+
+
+body{
+  background-color: gray;
+  padding: 10px;
+}
+
+.input1{
+  display: block;
+  margin: 5px;
+}
+
+.tell{
+  height: 200px;
+}
+
+input[type="text"]{
+  margin: auto;
+}

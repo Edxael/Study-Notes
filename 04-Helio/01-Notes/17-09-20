@@ -1,0 +1,45 @@
+
+	Full Stack - Class Notes
+
+Date.......: Sep 20, 2017
+Teacher....: Courtney Nguyeb
+Class Topic: HTML
+Homework...:
+
+	CSS Grid:
+https://css-tricks.com/snippets/css/complete-guide-grid/
+
+	FlexBox:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+	Put this on the blog:
+https://960.gs/
+
+	Media Query:
+https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+
+
+***********************************
+		Notes during Class
+***********************************
+
+
+
+http://blog.mycode.website/
+
+w3c school has a validation services:
+https://validator.w3.org/
+
+the 1rst child of the article tag should be a kind of header: h1, h2, ....
+
+the <select> tag will create a dropdown menu, and each value is call <option>
+
+inline-block vs inline
+
+
+960 grid website: https://960.gs/
+
+how to reset the default CSS that the browser provide:
+http://cssreset.com/what-is-a-css-reset/
+
+flexbox zombies:
