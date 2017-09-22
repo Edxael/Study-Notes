@@ -14,7 +14,9 @@ body{
 .tell{
   height: 200px;
 }
-
-input[type="text"]{
-  margin: auto;
+label {
+  display: block;
 }
+/*input[type="text"]{
+  margin: auto;
+}*/
