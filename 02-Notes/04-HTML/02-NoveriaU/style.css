@@ -1,0 +1,58 @@
+
+body{
+  background-image: url("IMG/ubg.jpg");
+  text-align: center;
+}
+
+
+.motion{
+  padding-top: 100px;
+}
+
+.pic1{
+  width: 70%;
+  height: auto;
+}
+
+.myh3{
+  color: aqua; 
+}
+
+.texto{
+  color: yellow;
+}
+
+
+
+
+
+
+
+
+.ft1{
+  border: 2px solid white;
+    margin: 0px auto;
+    width: 537px;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rifle{
+    width: 40px;
+    height: 40px;
+    margin: 5px 5px 0 15px;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    margin: 7px 2px 0 2px;
+}
+
+.name{
+
+    color: white;
+    font-size: 20px;
+    margin: 14px 1px 0 1px;
+}
