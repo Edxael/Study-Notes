@@ -1,0 +1,23 @@
+/*----- index.js -----*/
+.gatherDiv{
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid black;
+}
+
+
+/*----- 01-ClassComp.jsx -----*/
+.myHeader{
+  padding: 15px;
+  background-color: rgb(165, 191, 226);
+}
+
+
+/*----- 02-StatelessComp.jsx -----*/
+.eva{
+  margin-top: 15px;
+  padding: 15px;
+  background-color: gray;
+
+  
+}
