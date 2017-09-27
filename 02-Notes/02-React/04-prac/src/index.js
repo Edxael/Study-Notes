@@ -7,7 +7,7 @@ class Gather extends Component {
   render() {
     return(
       <div className="gatherDiv">
-        <h1>Main Div</h1>
+        <h1>Main Div Container</h1>
         <Comp_01 />
       </div>
     )
