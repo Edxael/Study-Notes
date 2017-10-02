@@ -1,4 +1,4 @@
-      
+
 
                STUDY NOTES, PROJECTS & REPORTS
             ------------------------------------
@@ -6,10 +6,10 @@
 
 This repository will have my notes on my studies. The structure of this study repository is:
 
-  01-Weekly Reports: 
+  01-Weekly Reports:
 Here there will be a file for each week subdivided by days, showing what was studied that day, and what projects were worked on.
 
-  02-Notes: 
+  02-Notes:
 This directory will contain a collection of subdirectories each one for one major topic, in order to organize my studies, this will be, just notes, and proof of concept of technologies and techniques studied.
 
   03- Projects:
@@ -24,13 +24,13 @@ The reports will be organized using a year and week system, in which the first t
 
 Example:   17-32-Report.
 
-In the previous example, the report contains the information for the week number 32 of the year 2017, this week extended from: 
+In the previous example, the report contains the information for the week number 32 of the year 2017, this week extended from:
 Sunday, August 07  to   Saturday, August 12.
 
 Note:
-In order to use this system, I will be changing the starting day for each week report, from here and forward each week starts in Sunday and finish on Saturday, 
+In order to use this system, I will be changing the starting day for each week report, from here and forward each week starts in Sunday and finish on Saturday,
 
 
 
-There will be some other repositories with information, or projects. 
-
+There will be some other repositories with information, or projects.
+-----
