@@ -1,18 +1,18 @@
 
-function remove(s){
-
-  var arr = s.split('').filter(function(n){ return n != "!" });
-  var str = arr.join("");
-  arr = str.split(" ");
-
-  for(x in arr){
-    arr[x] = arr[x] + "!";
-  }
-
-  return arr.join(" ");
-
+function ìsZeroBalanced(n){
+  if(n.length == 0){return true}
+  const asum = (pv, cv) => pv + cv;
+  return (n.reduce(asum) == 0) ? true : false ;
 }
 
 
-var s = "Hi! Hi!";
-console.log( remove(s) );
+
+
+
+
+
+if( str.match( /[a-zA-Z]/ ) ){
+  console.log("es Vocal");
+}else {
+  console.log("es consonante");
+}
