@@ -8,7 +8,6 @@ const calculate = {
   div: (num1, num2)  => num1 / num2
 }
 
-// console.log(calculate.suc(5, 4));
-// console.log(calculate.div(50, 2));
-
-console.log(eval("5*8/2.4*1.75+1"));
+console.log(  calculate.suc(5, 4)   );
+console.log(calculate.div(50, 2));
+console.log(calculate.mul(5, 8));
