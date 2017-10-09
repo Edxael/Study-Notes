@@ -1,40 +1,41 @@
 
-console.log("Listen to the cats...");
+console.log("Practicing Arrow Functions... \n ");
 
-new Array(101).fill().map((x, idx) => { console.log(  ((idx % 3 == 0) && (idx % 5 == 0)) ? `${idx} is Fizz-Buzz` :  (idx % 3 == 0) ?  `${idx} is Fizz` : (idx % 5 == 0) ?  `${idx} is Buzz` : `${idx} is ...`  ) })
-
-// A logic Game - from Vikings.
-// http://blog.mycode.website/a-logic-game/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//
 // let person1 = {
-//   name: 'Alex'
+//   name: 'Alex',
+//   speak: function(){ console.log("My name is: ", this.name, " \n "); }
 // };
 //
 // let person2 = {
-//   name: 'Zike'
+//   name: 'Zike',
+//   speak: () => { console.log("My name is: ", this.name, " \n "); }
 // }
 //
-// function namer() {
-//   return this.name;
-// }
 //
-// console.log( namer.bind(person2)() );
+//
+//
+// let h1 = person1.speak.bind(person1);
+// h1()
+//
+// let h2 = person2.speak.bind(person2);
+// h2()
+
+
+const person1 = {
+  name: "Mike",
+  speak: function(){ console.log("My name is: ", this.name); }
+}
+
+const presentation1 = person1.speak.bind(person1);
+presentation1();
 
 
 
-// new Array(201).fill().map((x, idx) => idx).map((x) => { return ((x % 5 == 0) || (x % 3 == 0)) ? `${x} is Fizz-Buzz` : (x % 3 == 0) ? `${x} is Fizz` : (x % 5 == 0) ? `${x} is Buzz` : `${x} is...` }).map((x) => { console.log(x) })
-// console.log(nums);
+const person2 = {
+  name: "Hector",
+  speak: () => { console.log("My name is: ", this.name); }
+}
+
+const presentation2 = person2.speak.bind(person2);
+presentation2();
