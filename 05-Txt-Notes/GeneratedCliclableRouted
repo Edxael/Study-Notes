@@ -1,0 +1,13 @@
+
+
+making a dinamically generated component Clickable:
+
+https://reacttraining.com/react-router/web/example/url-params
+
+
+
+Note: how to make the command line to jump to the next line:
+
+# Making all tex Green and Bold
+PS1="
+    \[ ${green}${bold}Edxael: ${white}" ;

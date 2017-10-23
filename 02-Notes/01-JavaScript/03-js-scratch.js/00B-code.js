@@ -27,15 +27,22 @@ const person1 = {
   speak: function(){ console.log("My name is: ", this.name); }
 }
 
+const person2 = {
+  name: "Hector",
+  speak: () => { console.log("My name is: ", person2.name); }
+}
+
+
+
+
 const presentation1 = person1.speak.bind(person1);
 presentation1();
 
-
-
-const person2 = {
-  name: "Hector",
-  speak: () => { console.log("My name is: ", this.name); }
-}
-
 const presentation2 = person2.speak.bind(person2);
 presentation2();
+
+
+
+read:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind
