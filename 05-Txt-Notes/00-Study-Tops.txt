@@ -1,0 +1,24 @@
+    List and order of topics to study
+---------------------------------------
+
+Regular Expressions.
+React-Native.
+UDWS Class: Git & GitHub.
+
+Java TomCat...
+
+
+
+
+
+
+
+
+    Other topics
+-----------------------------------------
+Graph.cool
+Apollo
+Mongo.db
+Monk
+Netify
+Oath.Authentication

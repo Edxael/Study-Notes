@@ -1,0 +1,91 @@
+
+            NOTES IN HOW TO CONFIGURE AND EXECUTE...
+
+===========================================================================
+HOW TO INSTALL:
+
+Instructions URL:
+https://askubuntu.com/questions/616075/how-do-i-install-visual-studio-code
+
+
+You can use Ubuntu Make to download and install Visual Studio Code:
+************************************************************
+    sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make
+    sudo apt-get update
+    sudo apt-get install ubuntu-make
+************************************************************
+
+Then install Visual Studio Code:
+************************************************************
+    umake ide visual-studio-code
+************************************************************
+Then click on the Visual studio icon that it automatically places on your launcher.
+
+To remove it, delete the installation folder and right click on the launcher to unpin the icon. The installation folder defaults to ~/tools/web/visual-studio-code
+
+
+
+
+
+===========================================================================
+How to Save All:
+
+Here we will add a new key-shor-cut
+
+the instruction can be found: 
+http://blog.devmatter.com/vs-code-ctrlshifts-wat/
+https://stackoverflow.com/questions/37014171/how-can-we-save-all-files-in-vscode-like-we-do-in-visual-studio
+
+
+  -- On Visual Studio Code Menu --
+File / Preferences / Keyboar Shorcuts
+
+in the file: "keybindindings.json"
+------------
+
+[
+    {
+        "key": "ctrl+shift+s",
+        "command": "workbench.action.files.saveAll"
+    }
+]
+
+------------
+Save the changes and restar the editor. 
+
+
+
+
+
+some data here:
+https://stackoverflow.com/questions/30037808/multiline-editing-in-vscode
+
+
+
+===========================================================================
+Official site wit videos in how to use it: 
+https://code.visualstudio.com/docs/getstarted/introvideos
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------
+        THINGS I WAN TO DO:
+
+x - Click cursor in multiple lines:  "visual studio code add cursor with mouse"
+x - Save all with a single save
+x - Duplicate liine below
+  - Commit new changes to GitHub.
+  - Open Software from the Terminal
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+                    MODIFICATIONS 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+action
