@@ -1,11 +1,13 @@
-console.log("Triple Add Function:")
+console.log("Triple Add Function: AKA: Curryng.")
 // Instructions: 
 // Create the function that when call:
 // tripleAdd(10)(20)(30)  // 60
 // Returns the sum of all the values provided 
+// .
+// // More info: https://hackernoon.com/currying-in-js-d9ddc64f162e
 
 
-
+// ===[ Solution ]============================
 
 const tripleAdd = (num1) => {
     return (num2) => {
