@@ -8,7 +8,11 @@ class Main1 extends React.Component{
         return(
             <div>
                 <Header />
+                <br/>
+
                 <Body />
+                <br/>
+                
                 <Footer />
             </div>
         )
