@@ -1,3 +1,5 @@
     // KEY-Strings:
 
 export const ADDTASK = 'ADDTASK';
+export const UPDATETASKSTATUS = 'UPDATETASKSTATUS';
+export const DELETEDONETASKS = 'DELETEDONETASKS';

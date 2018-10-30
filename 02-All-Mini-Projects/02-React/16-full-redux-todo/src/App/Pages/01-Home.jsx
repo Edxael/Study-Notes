@@ -1,3 +1,6 @@
+
+
+// Docs: https://react-redux.js.org/docs/introduction/basic-tutorial
 import React, { Component } from 'react'
 
     // Redux things
@@ -5,10 +8,10 @@ import { connect } from 'react-redux';
 import { store } from '../Redux/01-Store';
 import { addNewTask } from '../Redux/03-Actions'
 
-const stateReturner = (state) => {
-    console.log("The STATE: ", state)
-    return state
-}
+// const stateReturner = (state) => {
+//     console.log("The STATE: ", state)
+//     return state
+// }
  
 class Home extends Component{
     constructor(props){
@@ -51,4 +54,5 @@ class Home extends Component{
     }
 }
 
-export default connect(stateReturner)(Home);
+// export default connect(stateReturner)(Home);
+export default connect(null)(Home);

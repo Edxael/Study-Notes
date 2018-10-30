@@ -29,3 +29,12 @@ body{
 .menuButton:hover{
   background-color: rgba(170, 252, 180, 0.823);
 }
+
+.single-todo{
+  display: flex;
+  justify-content: space-between; 
+  padding: 4px 8px;
+  border: 2px solid black;
+  margin: 3px 10px;
+  background-color: rgba(51, 204, 255, 0.4)
+}
