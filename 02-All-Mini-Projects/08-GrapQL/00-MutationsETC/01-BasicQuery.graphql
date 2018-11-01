@@ -1,0 +1,36 @@
+
+Basic Qery:
+Query to get the information from an user: "BlueNightmares"
+===================================================================
+
+{
+  reddit{
+    user(username: "BlueNightmares"){
+      fullnameId
+      username
+      created
+      createdISO
+      linkKarma
+      commentKarma
+    }
+  }
+}
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+{
+  "data": {
+    "reddit": {
+      "user": {
+        "fullnameId": "t2_c4ffb",
+        "username": "BlueNightmares",
+        "created": 1371888375,
+        "createdISO": "2013-06-22T08:06:15.000Z",
+        "linkKarma": 1216,
+        "commentKarma": 24513
+      }
+    }
+  }
+}
+
+===================================================================

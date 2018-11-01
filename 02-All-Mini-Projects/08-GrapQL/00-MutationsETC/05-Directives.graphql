@@ -1,0 +1,40 @@
+ Directives:
+Base on a boolean on a variable it will check if that field's data match the provided value 
+then will include that specific fiel on the return object.
+
+The Directives are: [@skip / @include] and will show base on [true / false] value on a "Query-Variable"
+===================================================================
+
+query mySearchUsers($myUsername: String!, $showKarma: Boolean!)
+{
+  reddit{
+    myUser1: user(username: $myUsername){
+    	fullnameId
+      username
+      created
+      linkKarma @include(if: $showKarma)   <-- [@skip / @include] 
+    }
+  }
+}
+
+   ^^^[ Queries-Variables ]^^^
+{
+  "myUsername": "BlueNightmares",
+  "showKarma": false   <--- [true / false]
+}
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+{
+  "data": {
+    "reddit": {
+      "myUser1": {
+        "fullnameId": "t2_c4ffb",
+        "username": "BlueNightmares",
+        "created": 1371888375
+      }
+    }
+  }
+}
+
+===================================================================

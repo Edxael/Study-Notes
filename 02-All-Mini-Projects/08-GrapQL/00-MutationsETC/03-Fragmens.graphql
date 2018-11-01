@@ -1,0 +1,43 @@
+
+Fragments:
+When using "Aliases" and rquiring several users data, the code can became very repetitive
+to make more consice you cna use fragments that are like recyclabe snipets... 
+===================================================================
+
+{
+  reddit{
+    myUser1:user(username: "BlueNightmares"){
+      ...myReqData
+    }
+    myUser2:user(username: "SuperPheotus"){
+      ...myReqData
+    }
+  }
+}
+
+fragment myReqData on RedditUser {
+  fullnameId
+  username
+  created
+}
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+{
+  "data": {
+    "reddit": {
+      "myUser1": {
+        "fullnameId": "t2_c4ffb",
+        "username": "BlueNightmares",
+        "created": 1371888375
+      },
+      "myUser2": {
+        "fullnameId": "t2_sa43dig",
+        "username": "SuperPheotus",
+        "created": 1516131812
+      }
+    }
+  }
+}
+
+===================================================================

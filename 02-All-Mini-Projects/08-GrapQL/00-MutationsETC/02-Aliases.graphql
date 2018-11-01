@@ -1,0 +1,41 @@
+
+Aliases:
+If you want to get the same information of two users: "BlueNightmares" & "SuperPheotus"
+in this example we use the following Aliases: myUser1 & myUser2 but you can name them whatever you want.
+===================================================================
+
+{
+  reddit{
+    myUser1:user(username: "BlueNightmares"){
+      fullnameId
+      username
+      created
+    }
+    myUser2:user(username: "SuperPheotus"){
+      fullnameId
+      username
+      created
+    }
+  }
+}
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+{
+  "data": {
+    "reddit": {
+      "myUser1": {
+        "fullnameId": "t2_c4ffb",
+        "username": "BlueNightmares",
+        "created": 1371888375
+      },
+      "myUser2": {
+        "fullnameId": "t2_sa43dig",
+        "username": "SuperPheotus",
+        "created": 1516131812
+      }
+    }
+  }
+}
+
+===================================================================

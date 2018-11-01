@@ -1,0 +1,37 @@
+Variables:
+
+===================================================================
+
+query mySearchUsers($myUsername: String!)
+{
+  reddit{
+    myUser1: user(username: $myUsername){
+    	fullnameId
+      username
+      created
+      linkKarma
+    }
+  }
+}
+
+   ^^^[ Queries-Variables ]^^^
+{
+  "myUsername": "BlueNightmares"
+}
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+{
+  "data": {
+    "reddit": {
+      "myUser1": {
+        "fullnameId": "t2_c4ffb",
+        "username": "BlueNightmares",
+        "created": 1371888375,
+        "linkKarma": 1216
+      }
+    }
+  }
+}
+
+===================================================================
