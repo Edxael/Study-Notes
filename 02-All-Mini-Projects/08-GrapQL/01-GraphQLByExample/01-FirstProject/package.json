@@ -1,5 +1,5 @@
 {
-  "name": "1st Server",
+  "name": "server-1",
   "private": true,
   "dependencies": {
     "apollo-server-express": "^2.1.0",
