@@ -17,26 +17,13 @@ class Home extends React.Component{
     }
   }
 
-  componentWillReceiveProps(nextProps){
-    console.log("Inside of componentWillReceiveProps")
-    console.log("")
-    console.log("----------------------------")
-    console.log("NextProps: ",nextProps )
-    console.log("")
-    console.log("----------------------------")
-    console.log("this.props: ", this.props)
-    console.log("----------------------------")
-    if(nextProps.todoList !== this.props.todoList){
-      //Perform some operation
-      console.log("No Iguales..")
-      this.setState({taskNumber: nextProps.todoList.length });
-      this.classMethod();
-    }
+  updateNumberOfTask = () =>{
+    console.log("Updating....")
+    this.setState({ taskNumber: this.props.todoList.length })
   }
 
   handleUserInput = (event) => {
     event.preventDefault();
-    // console.log("The event: ", event.target.values)
     this.setState({ userInput: event.target.value })
   }
 
@@ -44,14 +31,14 @@ class Home extends React.Component{
     console.log("Task to add: ", this.state.userInput);
     store.dispatch(addTodoToStore(this.state.userInput))
     this.setState({ userInput: '' })
-    // this.componentWillReceiveProps()
   }
 
   render(){
+    // store.subscribe(this.updateNumberOfTask)
     return(
       <div>
         <h4>Home Page</h4>
-        <div>Tasks to do:.. {this.state.taskNumber}</div>
+        <div>Tasks to do: {this.state.taskNumber}</div>
         <br/>
 
         <div>Type new task.</div>
