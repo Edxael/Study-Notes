@@ -17,7 +17,8 @@ class Home extends React.Component{
     }
   }
 
-  updateNumberOfTask = () =>{
+
+  exe1 = () => {
     console.log("Updating....")
     this.setState({ taskNumber: this.props.todoList.length })
   }
@@ -34,11 +35,12 @@ class Home extends React.Component{
   }
 
   render(){
-    // store.subscribe(this.updateNumberOfTask)
+    
+    store.subscribe(this.exe1)
     return(
       <div>
         <h4>Home Page</h4>
-        <div>Tasks to do: {this.state.taskNumber}</div>
+        <div>Tasks to do..: {this.state.taskNumber}</div>
         <br/>
 
         <div>Type new task.</div>
