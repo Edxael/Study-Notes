@@ -8,7 +8,6 @@ export const addTodoToStore = (todoText) => {
 }
 
 export const updateTaskStatusFun = (status, idx) => {
-  console.log("In 03-Actions.js executing: updateTaskStatusFun()")
   return {
     type: UPDATE_TASK_STATUS,
     status: status,

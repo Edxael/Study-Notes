@@ -15,9 +15,6 @@ const mapDispatchToProps = (dispatch) => {
 }
 
 
-
-
-
 class Home extends React.Component{
   constructor(props){
     super(props)
@@ -29,7 +26,7 @@ class Home extends React.Component{
 
   componentDidUpdate(prevProps) {
     if (  prevProps.todoList.length > this.state.taskNumber) {
-      console.log("New Things")
+      console.log("New Items on task list, Updating the state...")
       this.setState({ taskNumber: prevProps.todoList.length })
     }
   }
@@ -38,14 +35,12 @@ class Home extends React.Component{
     console.log("The Hole Props: ", this.props)
   }
 
-
   handleUserInput = (event) => {
     event.preventDefault();
     this.setState({ userInput: event.target.value })
   }
 
   handleAddTask = () => {
-    console.log("Task to add: ", this.state.userInput);
     this.props.addTodoToStore(this.state.userInput) 
     this.setState({ userInput: '' })
   }

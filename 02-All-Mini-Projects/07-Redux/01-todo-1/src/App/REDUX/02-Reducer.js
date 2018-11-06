@@ -15,10 +15,9 @@ export const reducer = (state = initialState, action) => {
       state.todoList.push({ task: action.text, completed: false })
       return state
     case UPDATE_TASK_STATUS:
-      console.log("====> S-BF: ", state.todoList)
       state.todoList[action.idx].completed = action.status;
-      console.log("====> S-AF: ", state.todoList)
       return state
     default: return state
   }
 }
+

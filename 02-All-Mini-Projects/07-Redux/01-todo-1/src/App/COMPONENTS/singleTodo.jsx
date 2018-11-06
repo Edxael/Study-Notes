@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
-import { store } from '../REDUX/01-Store';
+// import { store } from '../REDUX/01-Store';
+import { connect } from 'react-redux';
 import { updateTaskStatusFun } from '../REDUX/03-Actions';
+
+const mapDispatchToProps = (dispatch) => {
+  return ({
+    updateTaskStatusFun: (status, idx) => { dispatch(updateTaskStatusFun(status, idx)) }
+  })
+}
 
 class SingleTodo extends Component {
   constructor(props) {
@@ -9,14 +16,13 @@ class SingleTodo extends Component {
       taskDone: this.props.taskDone
     }
   }
-  
-  handleCheckChange = () => {
-    console.log("Updating CkeckBox")
-    this.setState({ taskDone: !this.state.taskDone }, () => {
-      store.dispatch(updateTaskStatusFun(this.state.taskDone, this.props.idx))
-    })
 
+  handleCheckChange = () => {
+    this.setState({ taskDone: !this.state.taskDone }, () => {
+      this.props.updateTaskStatusFun(this.state.taskDone, this.props.idx)
+    })
   }
+
   render() {
     return (
       <div>
@@ -34,4 +40,4 @@ class SingleTodo extends Component {
 }
 
 
-export default SingleTodo;
+export default connect(null, mapDispatchToProps)(SingleTodo);
