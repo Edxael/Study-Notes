@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { addTodoToStore } from '../REDUX/03-Actions';
-import { store } from '../REDUX/01-Store';
+// import { store } from '../REDUX/01-Store';
 
 const mapStateToProps = (state) => {
   const { todoList } = state;
@@ -16,6 +16,8 @@ const mapDispatchToProps = (dispatch) => {
 
 
 
+
+
 class Home extends React.Component{
   constructor(props){
     super(props)
@@ -25,11 +27,17 @@ class Home extends React.Component{
     }
   }
 
+  componentDidUpdate(prevProps) {
+    if (  prevProps.todoList.length > this.state.taskNumber) {
+      console.log("New Things")
+      this.setState({ taskNumber: prevProps.todoList.length })
+    }
+  }
 
-  // exe1 = () => {
-  //   console.log("Updating....")
-  //   this.setState({ taskNumber: this.props.todoList.length })
-  // }
+  componentDidMount(){
+    console.log("The Hole Props: ", this.props)
+  }
+
 
   handleUserInput = (event) => {
     event.preventDefault();
@@ -43,14 +51,10 @@ class Home extends React.Component{
   }
 
   render(){
-
-    console.log("The Hole Props: ", this.props)
-    
-    // store.subscribe(this.exe1)
     return(
       <div>
         <h4>Home Page</h4>
-        <div>Tasks to do..: {this.state.taskNumber}</div>
+        <div>Tasks to do: {this.state.taskNumber}</div>
         <br/>
 
         <div>Type new task.</div>
