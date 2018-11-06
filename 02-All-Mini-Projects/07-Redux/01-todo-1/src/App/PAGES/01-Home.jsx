@@ -8,6 +8,14 @@ const mapStateToProps = (state) => {
   return { todoList: todoList }
 }
 
+const mapDispatchToProps = (dispatch) => {
+  return ({
+    addTodoToStore: (text) => { dispatch(addTodoToStore(text)) }
+  })
+}
+
+
+
 class Home extends React.Component{
   constructor(props){
     super(props)
@@ -18,10 +26,10 @@ class Home extends React.Component{
   }
 
 
-  exe1 = () => {
-    console.log("Updating....")
-    this.setState({ taskNumber: this.props.todoList.length })
-  }
+  // exe1 = () => {
+  //   console.log("Updating....")
+  //   this.setState({ taskNumber: this.props.todoList.length })
+  // }
 
   handleUserInput = (event) => {
     event.preventDefault();
@@ -30,13 +38,15 @@ class Home extends React.Component{
 
   handleAddTask = () => {
     console.log("Task to add: ", this.state.userInput);
-    store.dispatch(addTodoToStore(this.state.userInput))
+    this.props.addTodoToStore(this.state.userInput) 
     this.setState({ userInput: '' })
   }
 
   render(){
+
+    console.log("The Hole Props: ", this.props)
     
-    store.subscribe(this.exe1)
+    // store.subscribe(this.exe1)
     return(
       <div>
         <h4>Home Page</h4>
@@ -53,4 +63,4 @@ class Home extends React.Component{
   }
 }
 
-export default connect(mapStateToProps)(Home);
+export default connect(mapStateToProps, mapDispatchToProps)(Home);
