@@ -1,4 +1,4 @@
-import { ADDTODO, UPDATE_TASK_STATUS } from './00-Key-Types';
+import { ADDTODO, UPDATE_TASK_STATUS, REMOVE_DONE_TASKS } from './00-Key-Types';
 
 const initialState = {
   todoList: [
@@ -17,6 +17,14 @@ export const reducer = (state = initialState, action) => {
     case UPDATE_TASK_STATUS:
       state.todoList[action.idx].completed = action.status;
       return state
+    case REMOVE_DONE_TASKS: 
+      console.log("Reducer case: REMOVE_DONE_TASKS")
+      console.log("SBF: ", state.todoList)
+      const notDone = state.todoList.filter((x) => { return x.completed === false })
+      console.log("AFF: ", notDone)
+      state.todoList = notDone
+      console.log("AFF2: ", state.todoList)
+      return state.todoList
     default: return state
   }
 }

@@ -25,13 +25,14 @@ class SingleTodo extends Component {
 
   render() {
     return (
-      <div>
-        <span>Task: {this.props.text}</span>
+      <div className="singleTodo" >
+        <span><strong>Task:</strong> {this.props.text}</span>
         <span>
           <input
             type="checkbox"
             checked={this.state.taskDone}
             onChange={this.handleCheckChange}
+            className="ckBox"
           />
         </span>
       </div>

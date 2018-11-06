@@ -1,4 +1,4 @@
-import { ADDTODO, UPDATE_TASK_STATUS } from './00-Key-Types';
+import { ADDTODO, UPDATE_TASK_STATUS, REMOVE_DONE_TASKS } from './00-Key-Types';
 
 export const addTodoToStore = (todoText) => {
   return {
@@ -12,5 +12,12 @@ export const updateTaskStatusFun = (status, idx) => {
     type: UPDATE_TASK_STATUS,
     status: status,
     idx: idx
+  }
+}
+
+export const removeDoneTasks = () => {
+  console.log("The action: removeDoneTasks")
+  return {
+    type: REMOVE_DONE_TASKS,
   }
 }

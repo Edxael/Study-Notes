@@ -29,3 +29,27 @@ body{
 .menuButton:hover{
   background-color: rgb(182, 181, 252);
 }
+
+/* ===================================================== */
+.singleTodo{
+  border: 2px solid black;
+  width: 40%;
+  margin: 3px auto;
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+  padding: 1px 35px;
+  align-items: center;
+}
+
+.ckBox{
+  zoom: 2;
+}
+
+.taksBTNs{
+  width: 150px;
+  height: 30px;
+  margin: 0px 2px;
+}
+
+/* ===================================================== */

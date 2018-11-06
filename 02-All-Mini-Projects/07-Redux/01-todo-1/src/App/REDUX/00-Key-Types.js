@@ -1,2 +1,3 @@
 export const ADDTODO = 'ADDTODO';
 export const UPDATE_TASK_STATUS = 'UPDATE_TASK_STATUS';
+export const REMOVE_DONE_TASKS = 'REMOVE_DONE_TASKS';

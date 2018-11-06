@@ -5,6 +5,7 @@ import { addTodoToStore } from '../REDUX/03-Actions';
 
 const mapStateToProps = (state) => {
   const { todoList } = state;
+  console.log("mapStateToProps ==> todoList:  ", todoList )
   return { todoList: todoList }
 }
 
