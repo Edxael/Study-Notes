@@ -1,17 +1,21 @@
 <template>
   <div class="main-container">
+
     <div class="nav-menu">
       <nav>
-        <router-link to="/">Home</router-link>
-        <router-link to="/swapi">Swapi</router-link>
-        <router-link to="/about">About</router-link>
+        <router-link class="link1" to="/">Home</router-link>
+        <router-link class="link1" to="/swapi">Swapi</router-link>
+        <router-link class="link1" to="/about">About</router-link>
+        <router-link class="link1" to="/extra">Extra</router-link>
+        <router-link class="link1" to="/cssclasses">Classes</router-link>
       </nav>
     </div>
 
     <div class="router-view-container">
       <router-view/>
     </div>
-    <dir>below</dir>
+
+    <div>by: Webaholics</div>
   </div>
 </template>
 
@@ -23,11 +27,9 @@ export default {
 }
 </script>
 
-<style>
-.main-container {
+<style >
+body{
   background-color: rgb(219, 219, 219);
-  border: 1px solid black;
-  height: 100vh;
   text-align: center;
 }
 
@@ -35,7 +37,7 @@ nav {
   padding: 20px 20px 20px 0;
 }
 
-nav a {
+.link1 {
   padding: 10px;
   text-decoration: none;
   background: #fff;
@@ -47,6 +49,7 @@ nav a {
 
 .router-view-container{
   width: 50%;
+  height: 85vh;
   margin: 0px auto 30px auto;
   /* background-color: rgb(255, 255, 255); */
   /* border: 1px solid red; */

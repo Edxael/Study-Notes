@@ -30,6 +30,6 @@ export default {
   .main-container{
     border: 1px solid blue;
     background-color: rgb(255, 255, 255);
-    height: 80vh;
+    height: 100%;
   }
 </style>
