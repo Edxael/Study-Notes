@@ -8,6 +8,7 @@
         <router-link class="link1" to="/about">About</router-link>
         <router-link class="link1" to="/extra">Extra</router-link>
         <router-link class="link1" to="/cssclasses">Classes</router-link>
+        <router-link class="link1" to="/boots1">Bts1</router-link>
       </nav>
     </div>
 
