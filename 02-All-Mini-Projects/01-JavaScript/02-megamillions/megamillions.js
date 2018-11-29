@@ -1,3 +1,6 @@
+// Used to select numbers 
+console.log("Automatic number selection.")
+
 const genBigNum = () => {
   return Math.floor(Math.random() * (70 - 1 + 1)) + 1;
 }
