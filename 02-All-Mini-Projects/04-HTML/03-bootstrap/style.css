@@ -1,0 +1,9 @@
+body{
+  background-color: aquamarine;
+  padding: 25px;
+}
+
+.foodPic{
+  height: 200px;
+  width: auto;
+}

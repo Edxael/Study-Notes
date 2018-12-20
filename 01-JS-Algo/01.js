@@ -1,21 +1,31 @@
-// Given a string return the first letter that is repeated
+// Josephus permution
 
-let s1 = 'DBCABA'
+console.log("Hello world")
 
-const t1 = (s) => {
-  console.log(s)
-  let obj = {}
+let num = 339
+let baseArr = []
+let binCons = []
+let acumulator = 1
 
-  return s.split("").map((x) => {
-
-    if(obj.hasOwnProperty(x)){
-      return x
-    }else{
-      obj[x] = 1
-    }
-
-  }).filter((x) => { return x !== undefined })[0]
+while(acumulator <= num){
+  baseArr.push(acumulator)
+  acumulator = acumulator * 2
 }
 
+baseArr = baseArr.reverse()
+console.log("BseArray: ", baseArr)
+console.log("BseArray: ", baseArr.length)
 
-console.log( "The answer is: ", t1(s1) )
+for(let x = 0; x <= baseArr.length -1; x++){
+  if(baseArr[x] <= num){
+    binCons.push(1)
+    num = num - baseArr[x]
+  }else{
+    binCons.push(0)
+  }
+}
+
+console.log(" ")
+console.log("BinArr: ", binCons)
+console.log("BinArr: ", binCons.length)
+
