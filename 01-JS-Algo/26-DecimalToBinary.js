@@ -16,7 +16,10 @@ while(num >= 1){
   }
 }
 
-console.log(arr.reverse())
+arr = arr.reverse()  // <-- Binary
+
+
+
 
 
 

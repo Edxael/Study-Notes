@@ -7,9 +7,10 @@
 // 8 --> 1
 // 13 --> 11
 // 14 --> 13
+// 41 --> 19
 
 
-let num = 41
+let num = 77
 console.log("Solders: ", num)
 let arr = []
 
